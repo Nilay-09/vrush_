@@ -1,0 +1,30 @@
+
+
+@media (max-width: 730px) {
+    .navigation {
+        justify-content: space-between !important;
+        margin-inline: auto !important;
+    }
+
+    .btn {
+        display: none !important;
+    }
+
+    .logoImg {
+        width: 44px !important;
+    }
+
+    .Navbar-active {
+        background-color: #CCDDFF !important;
+        color: #6698FA !important;
+        font-weight: 600;
+    }
+
+    .NavBG {
+        background: url('./imgs/NavbarImgs/MobileBG.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        /* z-index: -30; */
+    }
+}
