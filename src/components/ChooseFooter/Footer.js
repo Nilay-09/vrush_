@@ -11,7 +11,7 @@ import Leetcode from '../imgs/GalleryImgFolder/Medium.svg'
 import Codechef from '../imgs/GalleryImgFolder/Instagram-1.svg'
 
 
-import ScrollToTop from '../imgs/Footer/BlackIcon/Base.svg';
+import ScrollToTop from '../imgs/Footer/Base.svg';
 
 import gsap from 'gsap/all';
 // import ScrollToPlugin from 'gsap/ScrollToPlugin';

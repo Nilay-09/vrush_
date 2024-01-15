@@ -40,7 +40,6 @@ export default function MobileAboutMe() {
                 </div>
 
             </div>
-            <AboutMeStrapBar />
             <EducationSection />
             <Awards />
         </>

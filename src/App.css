@@ -334,7 +334,11 @@ html.lenis {
 }
 
 .MobileFooter {
-    /* background: linear-gradient(197deg, rgba(53, 104, 212, 0.91) 6.38%, #17429D 98.76%); */
+    background-image: url('./components/ChooseFooter/mobileFooter.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
 }
 
 .MobileFooterLand {
@@ -393,8 +397,8 @@ html.lenis {
 .link {
     --bg-h: 30%;
     background: linear-gradient(0deg,
-        #6698FA 0%,
-        #6698FA) no-repeat right 70% / 0 var(--bg-h);
+            #6698FA 0%,
+            #6698FA) no-repeat right 70% / 0 var(--bg-h);
     transition: background-size 350ms;
 }
 
@@ -406,8 +410,8 @@ html.lenis {
 
 .Navbar-active {
     background: linear-gradient(90deg,
-        #6698FA 0%,
-        #6698FA) no-repeat left 70% / 0 var(--bg-h);
+            #6698FA 0%,
+            #6698FA) no-repeat left 70% / 0 var(--bg-h);
     /* background: linear-gradient(90deg, #73DFE7 0%, #4990fa 100%); */
 
     /* transition: all 1s ease-in-out; */

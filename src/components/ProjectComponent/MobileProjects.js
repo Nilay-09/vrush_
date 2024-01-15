@@ -33,13 +33,12 @@ export default function MobileProjects() {
         });
     }
     const renderProject = (url, images) => (
-        <a href={url} target="_blank" rel="noopener noreferrer" className='hover:scale-105 transition-all duration-150 overflow-hidden' onClick={notify}>
-            <div className="flex relative w-full h-[500px] justify-center overflow-hidden" data-aos="fade-up">
-                {images.map((image, index) => (
-                    <img key={index} loading='lazy' src={image} alt={`I-${index}`} className="absolute h-full w-full" />
-                ))}
-            </div>
-        </a>
+
+        <div className="flex relative w-full h-[500px] justify-center overflow-hidden" data-aos="fade-up" onClick={notify}>
+            {images.map((image, index) => (
+                <img key={index} loading='lazy' src={image} alt={`I-${index}`} className="absolute h-full w-full" />
+            ))}
+        </div>
     );
 
     return (
